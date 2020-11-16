@@ -38,5 +38,10 @@
     "middlewave"
   ],
   "name": "sacho-cp",
-  "version": "1.2.4"
+  "version": "1.0.0",
+  "author": "ludejun@live.cn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ludejun/sacho-cp"
+  }
 }
