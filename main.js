@@ -32,7 +32,7 @@ module.exports = (app, midCreators = []) => {
     origin:'*',
     maxAge: app.config.maxAge / 1000,
     credentials: true,
-    methods: 'GET, HEAD, OPTIONS, POST',
+    methods: 'GET, OPTIONS, POST',
     headers: 'Origin, X-Requested-With, Content-Type, Accept, Authorization'
   }));
 
